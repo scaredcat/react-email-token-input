@@ -4,7 +4,9 @@
   "description": "React Email Input Box",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production emailtoken.js",
+    "start": "http-server ."
   },
   "keywords": [
     "react",
@@ -14,7 +16,15 @@
   ],
   "author": "Ankit Duseja",
   "license": "MIT",
-  "dependencies": {
-    
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
   }
 }

@@ -10,14 +10,17 @@ Try the [Demo].
 
 ### Installation
 1. Clone this repo.
-2. You need a server to run react properly. Let's create a simple server:
-
+2. Install development dependencies using npm
 ```sh
-$ npm i -g http-server
+$ npm i
 ```
-3. Now lets start the server:
+3. Build the code using webpack
 ```sh
-$ http-server [path-to-this-repo]
+npm run build
+```
+4. Now lets start the server:
+```sh
+$ npm run start
 ```
 Once the server is running, just visit: http://127.0.0.1:8080/index.html and start typing.
 
@@ -40,4 +43,4 @@ Developed by [Ankit Duseja]
 
 
   [Demo]: <http://www.ankitduseja.com/react-email-token-input/>
-   [Ankit Duseja]: <http://ankitduseja.com>
+  [Ankit Duseja]: <http://ankitduseja.com>
